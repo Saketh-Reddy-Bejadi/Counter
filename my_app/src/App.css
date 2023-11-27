@@ -47,3 +47,17 @@ button{
   margin: 20px 0px 0px 0px;
   background-color:teal;
 }
+
+@media only screen and (max-width: 600px) {
+  .btnMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sub{
+    margin-top: -10px;
+  }
+  .add{
+    margin-top: 20px;
+  }
+}
