@@ -21,9 +21,9 @@ export const App = () => {
       <div className="box" >
         <h1 className="heading">{count}</h1>
         <div className="btnMenu">
+          <button className="add" onClick={Addition} ><p className="value">ADD</p></button>
           <button className="sub" onClick={Subtraction} ><p className="value">SUB</p></button>
           <button className="reset" onClick={Reset} ><p className="value">RESET</p></button>
-          <button className="add" onClick={Addition} ><p className="value">ADD</p></button>
         </div>
       </div>
     </>

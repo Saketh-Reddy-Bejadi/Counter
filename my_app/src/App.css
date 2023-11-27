@@ -44,7 +44,7 @@ button{
   text-shadow: 0px 0px 20px goldenrod;
 }
 .reset{
-  margin: 20px 0px 0px 0px;
+  /* margin: 20px 0px 0px 0px; */
   background-color:teal;
 }
 
@@ -55,9 +55,12 @@ button{
     justify-content: center;
   }
   .sub{
-    margin-top: -10px;
+    margin-top: 30px;
   }
   .add{
-    margin-top: 20px;
+    margin-top: -30px;
+  }
+  .reset{
+    margin-top: 30px;
   }
 }
